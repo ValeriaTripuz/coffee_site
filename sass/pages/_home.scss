@@ -1,0 +1,33 @@
+.section-about {
+  background-color: $color-grey-light-1;
+  padding: 25rem 0;
+  margin-top: -20vh;
+}
+
+.section-features {
+  padding: 25rem 0;
+  margin-top: -10rem;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.6),
+      rgba($color-primary-dark, 0.6)
+    ),
+    url("https://img.freepik.com/free-photo/very-simple-modern-cup-coffee-white-background-plant-greenery-minimalist-theme_336260-25.jpg?size=626&ext=jpg");
+  background-size: cover;
+
+  transform: skewY(4deg);
+  & > * {
+    transform: skewY(-4deg);
+  }
+}
+
+.section-coffee {
+  background-color: $color-grey-light-1;
+  padding: 20rem 0 20rem;
+  margin-top: -10rem;
+}
+
+.section-stories {
+  padding: 15rem 0;
+  background-color: $color-grey-light-1;
+}

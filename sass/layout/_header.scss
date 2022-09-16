@@ -1,0 +1,36 @@
+.header {
+  height: 95vh;
+  position: relative;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-light, 0.6),
+      rgba($color-primary-dark, 0.6)
+    ),
+    url("https://img.freepik.com/free-photo/very-simple-modern-cup-coffee-white-background-plant-greenery-minimalist-theme_336260-25.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+  &-logo-box {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    /* transform: translate(-10%, -10%); */
+  }
+
+  &-img {
+    width: 18rem;
+  }
+  &-logo {
+    height: 10rem;
+  }
+  &-text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    /* background-color: rgba(104, 72, 42, 0.2); */
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
